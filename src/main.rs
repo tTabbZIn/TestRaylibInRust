@@ -58,7 +58,6 @@ fn main() {
 
 
     while !rl.window_should_close() {
-        // Update Lógica do jogo aqui...
         let frame_time = rl.get_frame_time();
 
         let mut player_rec = Rectangle::new(player.frame_x, player.frame_y, player_mirror, 32.0);
@@ -112,10 +111,6 @@ fn main() {
 
         d.draw_fps(10, 10);
 
-        //
-        // Draw
-        //
-        //
 
         let mut block_x: f32 = 0.0;
         let mut block_y: f32 = 0.0;
